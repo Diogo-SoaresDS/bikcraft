@@ -1,7 +1,7 @@
 .introducao-bg {
   background-color: #000;
-  color: var(--color-0);
-  box-shadow: inset 0px -120px var(--color-0);
+  color: var(--cor-0);
+  box-shadow: inset 0px -120px var(--cor-0);
 }
 
 .introducao {
@@ -16,8 +16,9 @@
 }
 
 .introducao img {
-  object-fit: cover;
+  width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .introducao h1 {
@@ -26,14 +27,14 @@
 
 .introducao p {
   margin-bottom: 20px;
-  color: var(--color-5);
+  color: var(cor-5);
 }
 
 @media (max-width: 800px) {
   .introducao-bg {
-    background-color: var(--color-11);
+    background-color: var(--cor-11);
     padding-top: 40px;
-    box-shadow: inset 0px -60px var(--color-0);
+    box-shadow: inset 0px -60px var(--cor-0);
   }
   
   .introducao {

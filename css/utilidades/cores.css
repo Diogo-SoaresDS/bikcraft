@@ -1,17 +1,17 @@
 :root {
-  --color-12: #000000;
-  --color-11: #111111;
-  --color-10: #2e2e2e;
-  --color-9: #404040;
-  --color-8: #595959;
-  --color-7: #717171;
-  --color-6: #9c9c9c;
-  --color-5: #b2b2b2;
-  --color-4: #cccccc;
-  --color-3: #dedede;
-  --color-2: #ededed;
-  --color-1: #f7f7f7;
-  --color-0: #ffffff;
+  --cor-12: #000000;
+  --cor-11: #111111;
+  --cor-10: #2e2e2e;
+  --cor-9: #404040;
+  --cor-8: #595959;
+  --cor-7: #717171;
+  --cor-6: #9c9c9c;
+  --cor-5: #b2b2b2;
+  --cor-4: #cccccc;
+  --cor-3: #dedede;
+  --cor-2: #ededed;
+  --cor-1: #f7f7f7;
+  --cor-0: #ffffff;
 
   --primary-5: #332200;
   --primary-4: #664400;
@@ -20,10 +20,22 @@
   --primary-1: #ffbb00;
 }
 
-.cor-8 {
-  color: var(--color-8);
-}
+.cor-12 { color: var(--cor-12); }
+.cor-11 { color: var(--cor-11); }
+.cor-10 { color: var(--cor-10); }
+.cor-9  { color: var(--cor-9); }
+.cor-8  { color: var(--cor-8); }
+.cor-7  { color: var(--cor-7); }
+.cor-6  { color: var(--cor-6); }
+.cor-5  { color: var(--cor-5); }
+.cor-4  { color: var(--cor-4); }
+.cor-3  { color: var(--cor-3); }
+.cor-2  { color: var(--cor-2); }
+.cor-1  { color: var(--cor-1); }
+.cor-0  { color: var(--cor-0); }
 
-.primary-1 {
-  color: var(--primary-1);
-}
+.primary-5 { color: var(--primary-5); }
+.primary-4 { color: var(--primary-4); }
+.primary-3 { color: var(--primary-3); }
+.primary-2 { color: var(--primary-2); }
+.primary-1 { color: var(--primary-1); }
